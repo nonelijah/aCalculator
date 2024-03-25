@@ -14,7 +14,7 @@
             </h1>
             <article class="calculator">
                 <h2 class="a11y-hidden">계산기</h2>
-                <div class="screen"></div>
+                <input type="text" class="screen" readonly></input>
                 <div class="calculator-btns">
                     <button type="button" class="clear" id="clear">C</button>
                     <button type="button" class="func" id="bracket">
@@ -49,7 +49,11 @@
                     <button type="button" class="func" id="decimal-point">
                         &#46;
                     </button>
-                    <button type="button" class="result" id="result">
+                    <button
+                        type="button"
+                        class="result"
+                        id="result"
+                    >
                         &#61;
                     </button>
                 </div>
