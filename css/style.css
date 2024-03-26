@@ -69,7 +69,8 @@ body {
 .calculator-btns .number {
     color: black;
 }
-.calculator-btns .func {
+.calculator-btns .func,
+.calculator-btns .percent {
     color: skyblue;
 }
 .calculator-btns .result {
